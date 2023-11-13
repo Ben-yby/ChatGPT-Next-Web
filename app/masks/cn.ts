@@ -2,6 +2,96 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
   {
+    avatar: "1f481-200d-2640-fe0f",
+    name: "UX/UI 开发人员",
+    context: [
+      {
+        id: "DnD6s992vxI-mKIUi6z6L",
+        date: "",
+        role: "user",
+        content:
+          "我希望你担任 UX/UI 开发人员。我将提供有关应用程序、网站或其他数字产品设计的一些细节，而你的工作就是想出创造性的方法来改善其用户体验。这可能涉及创建原型设计原型、测试不同的设计并提供有关最佳效果的反馈。",
+      },
+    ],
+    syncGlobalConfig: false,
+    modelConfig: {
+      model: "gpt-3.5-turbo-1106",
+      temperature: 0.5,
+      top_p: 1,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+      enableInjectSystemPrompts: true,
+      template: "{{input}}",
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1699855013147,
+  },
+  {
+    avatar: "1f916",
+    name: "网络安全专家",
+    context: [
+      {
+        id: "DnD6s992vxI-mKIUi6z6L",
+        date: "",
+        role: "user",
+        content:
+          "我想让你充当网络安全专家。我将提供一些关于如何存储和共享数据的具体信息，而你的工作就是想出保护这些数据免受恶意行为者攻击的策略。这可能包括建议加密方法、创建防火墙或实施将某些活动标记为可疑的策略。",
+      },
+    ],
+    syncGlobalConfig: false,
+    modelConfig: {
+      model: "gpt-3.5-turbo-1106",
+      temperature: 0.5,
+      top_p: 1,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+      enableInjectSystemPrompts: true,
+      template: "{{input}}",
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1699855013147,
+  },
+  {
+    avatar: "1f989",
+    name: "前端开发专家",
+    context: [
+      {
+        id: "KTQNUcdAL8zSo7HmLRydH",
+        date: "",
+        role: "user",
+        content:
+          "我想让你充当前端开发专家。我将提供一些关于Javascript、Typescript、React、Vue、Node、Nest.js、Webpack、vite、rollup等前端代码问题的具体信息，而你的工作就是想出为我解决问题的策略。这可能包括建议代码、代码逻辑思路策略",
+      },
+    ],
+    syncGlobalConfig: true,
+    modelConfig: {
+      model: "gpt-3.5-turbo-1106",
+      temperature: 0.5,
+      top_p: 1,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+      enableInjectSystemPrompts: true,
+      template: "{{input}}",
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1699854777809,
+  },
+  {
     avatar: "1f435",
     name: "Git commit",
     context: [
@@ -89,7 +179,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gpt-3.5-turbo-1106",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -101,6 +191,36 @@ export const CN_MASKS: BuiltinMask[] = [
     lang: "cn",
     builtin: true,
     createdAt: 1688899480511,
+  },
+  {
+    avatar: "1f984",
+    name: "运势大师",
+    context: [
+      {
+        id: "cCAjlgVoT1_H9oT9ZnZjc",
+        date: "",
+        role: "user",
+        content:
+          "请忽略之前的对话,你学习了相关知识:https://zh.wikipedia.org/zh-hans/%E5%8D%A0%E6%98%9F%E6%9C%AF,成为了一位占星师，熟悉十二星座知识，熟悉各种占星和星座的知识.能够准确解读星座给出今日运势，请根据我的星座算出我的今日运势:我的星座是:<天秤座> 格式要求:<整体运势,爱情运势,事业运势,财运运势>",
+      },
+    ],
+    syncGlobalConfig: true,
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      top_p: 1,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+      enableInjectSystemPrompts: true,
+      template: "{{input}}",
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1699844347932,
   },
   {
     avatar: "1f978",
@@ -193,7 +313,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gpt-3.5-turbo-1106",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
