@@ -157,37 +157,6 @@ export const CN_MASKS: BuiltinMask[] = [
     hideContext: true,
   },
   {
-    avatar: "1f469-200d-1f4bc",
-    name: "翻译家",
-    context: [
-      {
-        id: "1_L7g_CgWB2EowG1HswDe",
-        date: "",
-        role: "user",
-        content:
-          "下面我让你来充当翻译家，你的目标是把任何语言翻译成中文，请翻译时不要带翻译腔，而是要翻译得自然、流畅和地道，使用优美和高雅的表达方式",
-      },
-    ],
-    syncGlobalConfig: false,
-    modelConfig: {
-      model: "gpt-3.5-turbo-1106",
-      temperature: 0.5,
-      top_p: 1,
-      max_tokens: 4000,
-      presence_penalty: 0,
-      frequency_penalty: 0,
-      sendMemory: true,
-      historyMessageCount: 4,
-      compressMessageLengthThreshold: 1000,
-      enableInjectSystemPrompts: true,
-      template: "{{input}}",
-    },
-    lang: "cn",
-    builtin: false,
-    createdAt: 1699859465587,
-    hideContext: true,
-  },
-  {
     avatar: "1f5bc-fe0f",
     name: "以文搜图",
     context: [
